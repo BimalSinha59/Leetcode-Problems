@@ -13,8 +13,16 @@ public:
         int x=nums[idx];
         bool temp=false;
         for(int i=1; i<=x; i++){
-            // dp[idx+i].first=idx+i;
-            temp=temp || f(nums,idx+i,n,dp);
+            
+            if(idx+i<n){
+                bool temp2=f(nums,idx+i,n,dp);
+                dp[idx+i].first=idx+i;
+                dp[idx+i].second=temp2;
+                temp=temp || temp2;
+            }
+            else{
+                break;
+            }
         }
         dp[idx].first=idx;
         return dp[idx].second=temp;
