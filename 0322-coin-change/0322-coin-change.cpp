@@ -21,35 +21,39 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) {
         int n=coins.size();
-        vector<vector<int>>dp(n,vector<int>(amount+1,-1));
+       // vector<vector<int>>dp(n,vector<int>(amount+1,-1));
         // int ans= f(n-1,amount,coins,dp);
         // if(ans==1e9){
         //     return -1;
         // }
         // return ans;
 
+        //space optimization 
+        vector<int>prev(amount+1,0),curr(amount+1,0);
+
         for(int val=0; val<=amount; val++){
             if(val%coins[0]==0){
-                dp[0][val]=val/coins[0];
+               prev[val]=val/coins[0];
             }
             else{
-                dp[0][val]=1e9;
+                prev[val]=1e9;
             }
         }
         for(int idx=1; idx<n; idx++){
             for(int val=0; val<=amount; val++){
-                int ntake=0+dp[idx-1][val];
+                int ntake=0+prev[val];
                 int take=1e9;
                 if(val>=coins[idx]){
-                    take=1+dp[idx][val-coins[idx]];
+                    take=1+curr[val-coins[idx]];
                 }
-                dp[idx][val]=min(take,ntake);
+                curr[val]=min(take,ntake);
             }
+            prev=curr;
         }
-        if(dp[n-1][amount]==1e9){
+        if(prev[amount]==1e9){
             return -1;
         }
-        return dp[n-1][amount];
+        return prev[amount];
         
     }
 };
