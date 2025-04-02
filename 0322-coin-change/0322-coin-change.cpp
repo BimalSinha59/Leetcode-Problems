@@ -6,7 +6,7 @@ public:
                 return val/coins[0];
             }
             else{
-                return 0;
+                return 1e9;
             }
         }
         if(dp[idx][val]!=-1){
@@ -21,12 +21,9 @@ public:
     }
     int coinChange(vector<int>& coins, int amount) {
         int n=coins.size();
-        if(amount==0){
-            return 0;
-        }
         vector<vector<int>>dp(n,vector<int>(amount+1,-1));
         int ans= f(n-1,amount,coins,dp);
-        if(ans==0){
+        if(ans==1e9){
             return -1;
         }
         return ans;
