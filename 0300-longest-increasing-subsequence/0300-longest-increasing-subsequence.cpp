@@ -19,17 +19,19 @@ public:
         // vector<vector<int>>dp(n,vector<int>(n+1,-1));
         // return f(0,-1,nums,n,dp);
 
-        vector<vector<int>>dp(n+1,vector<int>(n+1,0));
+        // vector<vector<int>>dp(n+1,vector<int>(n+1,0));
+        vector<int>next(n+1,0),curr(n+1,0);
         for(int ind=n-1;ind>=0; ind--){
             for(int p_end=ind-1;p_end>=-1; p_end--){
-                int len=0+dp[ind+1][p_end+1];
+                int len=0+next[p_end+1];
                 if(p_end==-1 || nums[ind]>nums[p_end]){
-                    len=max(len,1+dp[ind+1][ind+1]);
+                    len=max(len,1+next[ind+1]);
                 }
-                dp[ind][p_end+1]=len;
+                curr[p_end+1]=len;
             }
+            next=curr;
         }
-        return dp[0][0];
+        return next[0];
 
 
 
