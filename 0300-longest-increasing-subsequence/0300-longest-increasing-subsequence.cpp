@@ -20,18 +20,34 @@ public:
         // return f(0,-1,nums,n,dp);
 
         // vector<vector<int>>dp(n+1,vector<int>(n+1,0));
-        vector<int>next(n+1,0),curr(n+1,0);
-        for(int ind=n-1;ind>=0; ind--){
-            for(int p_end=ind-1;p_end>=-1; p_end--){
-                int len=0+next[p_end+1];
-                if(p_end==-1 || nums[ind]>nums[p_end]){
-                    len=max(len,1+next[ind+1]);
+
+        //////////***SO***//////////
+        // vector<int>next(n+1,0),curr(n+1,0);
+        // for(int ind=n-1;ind>=0; ind--){
+        //     for(int p_end=ind-1;p_end>=-1; p_end--){
+        //         int len=0+next[p_end+1];
+        //         if(p_end==-1 || nums[ind]>nums[p_end]){
+        //             len=max(len,1+next[ind+1]);
+        //         }
+        //         curr[p_end+1]=len;
+        //     }
+        //     next=curr;
+        // }
+        // return next[0];
+ 
+        ///////TABULATION dp[n] method/////////
+        vector<int>dp(n,1);
+        int maxi=1;
+        for(int i=1; i<n; i++){
+            for(int j=0; j<i; j++){
+                if(nums[i]>nums[j]){
+                    dp[i]=max(dp[i],1+dp[j]);
                 }
-                curr[p_end+1]=len;
             }
-            next=curr;
+            maxi=max(maxi,dp[i]);
         }
-        return next[0];
+        return maxi;
+
 
 
 
