@@ -19,12 +19,26 @@ public:
         }
         return true;
     }
+    bool dfsCheck(int start,vector<vector<int>>& graph,vector<int>& color,int col){
+        color[start]=col;
+        for(auto it:graph[start]){
+            if(color[it]==-1){
+                if(dfsCheck(it,graph,color,!col)==false){
+                    return false;
+                }
+            }
+            else if(color[it]==col){
+                return false;
+            }
+        }
+        return true;
+    }
     bool isBipartite(vector<vector<int>>& graph) {
         int n=graph.size();
         vector<int>color(n,-1);
         for(int i=0; i<n; i++){
             if(color[i]==-1){
-                if(bfsCheck(i,graph,color)==false){
+                if(dfsCheck(i,graph,color,0)==false){
                     return false;
                 }
             }
