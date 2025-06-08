@@ -8,7 +8,7 @@ public:
         if(n==1){
             return 1;
         }
-        queue<pair<pair<int,int>,int>>q;
+        queue<pair<pair<int,int>,int>>q; //No need of priority queue
         vector<vector<int>>dist(n,vector<int>(n,1e9));
         q.push({{0,0},0});
         dist[0][0]=0;
