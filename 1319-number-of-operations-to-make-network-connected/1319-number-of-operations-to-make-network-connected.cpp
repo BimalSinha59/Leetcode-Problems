@@ -46,7 +46,9 @@ public:
             if(ds.findUPar(it[0])==ds.findUPar(it[1])){
                 extCable++;
             }
-            ds.unionBySize(it[0],it[1]);
+            else{
+                ds.unionBySize(it[0],it[1]);
+            }
         }
         int ccompo=0;
         for(int i=0; i<n; i++){
