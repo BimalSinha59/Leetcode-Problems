@@ -40,7 +40,6 @@ public:
 class Solution {
 public:
     int makeConnected(int n, vector<vector<int>>& connections) {
-        int m=connections.size();
         DisjointSet ds(n);
         int extCable=0;
         for(auto it:connections){
