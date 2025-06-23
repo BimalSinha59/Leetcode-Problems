@@ -17,7 +17,7 @@ public:
         while(s[i]=='0'){
             i++;
         }
-        vector<int>v;
+        vector<long long>v;
         for(i=i; i<n; i++){
             if(s[i]>='0' && s[i]<='9'){
                v.push_back(s[i]-'0');
@@ -31,15 +31,16 @@ public:
         long long ans=0;
         for(int j=v.size()-1; j>=0; j--){
             ans+=v[j]*mul;
-            mul*=10;
-            if(ng && -ans<=INT_MIN){
+            //cout<<ans<<" ";
+            if(ng && -ans<=INT_MIN || ng && mul>INT_MAX){
                 ans=INT_MIN;
                 break;
             }
-            else if(ans>=INT_MAX){
+            else if(ans>INT_MAX || mul>INT_MAX){
                 ans=INT_MAX;
                 break;
             }
+            mul*=10;
         }
         if(ng && ans!=0){
             return -ans;
