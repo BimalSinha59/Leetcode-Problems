@@ -1,15 +1,9 @@
 class Solution {
 public:
-    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
-        vector<int>adj[n+1];
-        for(auto it:dislikes){
-            adj[it[0]].push_back(it[1]);
-            adj[it[1]].push_back(it[0]);
-        }
-        vector<int>color(n+1,-1);
-        color[1]=0;
+    bool checkBP(vector<int> adj[], int start, vector<int>& color){
+        color[start]=0;
         queue<int>q;
-        q.push(1);
+        q.push(start);
         while(!q.empty()){
             int node=q.front();
             q.pop();
@@ -24,6 +18,21 @@ public:
             }
         }
         return true;
-        
+    }
+    bool possibleBipartition(int n, vector<vector<int>>& dislikes) {
+        vector<int> adj[n+1];
+        for(auto it:dislikes){
+            adj[it[0]].push_back(it[1]);
+            adj[it[1]].push_back(it[0]);
+        }
+        vector<int>color(n+1,-1);   
+        for(int i=1; i<=n; i++){
+            if(color[i]==-1){
+                if(!checkBP(adj, i, color)){
+                    return false;
+                }
+            }
+        }  
+        return true;   
     }
 };
