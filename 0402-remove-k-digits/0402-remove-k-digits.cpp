@@ -15,6 +15,9 @@ public:
             if(k==0){
                 break;
             }
+            if(ans.empty() && num[i]=='0'){
+                continue;
+            }
             ans.push_back(num[i]);
         }
         if(k!=0){
@@ -24,19 +27,14 @@ public:
             }
         }
         for(int j=i; j<n; j++){
+            if(ans.empty() && num[j]=='0'){
+                continue;
+            }
             ans.push_back(num[j]);
         }
-        i=0;
-        while(ans[i]=='0'){
-            i++;
+        if(ans==""){
+            ans="0";
         }
-        string finalAns="";
-        for(int j=i; j<ans.size(); j++){
-            finalAns.push_back(ans[j]);
-        }
-        if(finalAns==""){
-            finalAns="0";
-        }
-        return finalAns;
+        return ans;
     }
 };
