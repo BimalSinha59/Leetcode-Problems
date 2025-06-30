@@ -1,112 +1,85 @@
 class Solution {
 public:
-    void nextSmaller(vector<int>& nums,int n, vector<int>&nextmn){
+    vector<int> findPSEE(vector<int>& nums, int n){
+        vector<int>ans(n);
         stack<int>st;
-        st.push(-1);
+        for(int i=0; i<n; i++){
+            while(!st.empty() && nums[st.top()]>=nums[i]){
+                st.pop();
+            }
+            ans[i]=st.empty() ? -1:st.top();
+            st.push(i);
+        }
+        return ans;
+    }
+
+    vector<int> findNSE(vector<int>& nums, int n){
+        vector<int>ans(n);
+        stack<int>st;
         for(int i=n-1; i>=0; i--){
-            int ele = nums[i];
-            while(!st.empty() && st.top()!=-1 && nums[st.top()]>ele){
+            while(!st.empty() && nums[st.top()]>nums[i]){
                 st.pop();
             }
-            nextmn.push_back(st.top());
+            ans[i]=st.empty() ? n:st.top();
             st.push(i);
         }
+        return ans;
     }
-    void prevSmaller(vector<int>&nums,int n, vector<int>&prevmn){
-        stack<int>st;
-        st.push(-1);
+    
+    long long sumMin(vector<int>& nums, int n){
+        auto psee=findPSEE(nums,n);
+        auto nse=findNSE(nums,n);
+        long long ans=0;
         for(int i=0; i<n; i++){
-            int ele=nums[i];
-            while(!st.empty() && st.top()!=-1 && nums[st.top()]>=ele){
+            int left=i-psee[i];
+            int right=nse[i]-i;
+            ans+=(1LL*left*right*nums[i]);
+        }
+        return ans;
+    }
+
+    vector<int> findPGEE(vector<int>& nums, int n){
+        vector<int>ans(n);
+        stack<int>st;
+        for(int i=0; i<n; i++){
+            while(!st.empty() && nums[st.top()]<=nums[i]){
                 st.pop();
             }
-            prevmn.push_back(st.top());
+            ans[i]=st.empty() ? -1:st.top();
             st.push(i);
         }
-    }
-    long long sumSubarrayMins(vector<int>& nums) {
-        vector<int>nextmn;
-        vector<int>prevmn;
-        int n=nums.size();
-        nextSmaller(nums,n,nextmn);
-        reverse(nextmn.begin(),nextmn.end());
-
-        for(int i=0; i<n; i++){
-            if(nextmn[i]==-1){
-                nextmn[i]=n;
-            }
-        }
-
-        prevSmaller(nums,n,prevmn);
-        
-        long long sum=0;
-        for(int i=0; i<n; i++){
-            long long nextS=nextmn[i]-i;
-            long long prevS=i-prevmn[i];
-            long long mul=(nextS)*(prevS);
-            long long total=(mul*nums[i]);
-            sum=(sum+total);
-        }
-        return sum;
+        return ans;
     }
 
-    void nextGreater(vector<int>& nums,int n, vector<int>&nextmx){
+    vector<int> findNGE(vector<int>& nums, int n){
+        vector<int>ans(n);
         stack<int>st;
-        st.push(-1);
         for(int i=n-1; i>=0; i--){
-            int ele = nums[i];
-            while(!st.empty() && st.top()!=-1 && nums[st.top()]<ele){
+            while(!st.empty() && nums[st.top()]<nums[i]){
                 st.pop();
             }
-            nextmx.push_back(st.top());
+            ans[i]=st.empty() ? n:st.top();
             st.push(i);
         }
-    }
-    void prevGreater(vector<int>&nums,int n, vector<int>&prevmx){
-        stack<int>st;
-        st.push(-1);
-        for(int i=0; i<n; i++){
-            int ele=nums[i];
-            while(!st.empty() && st.top()!=-1 && nums[st.top()]<=ele){
-                st.pop();
-            }
-            prevmx.push_back(st.top());
-            st.push(i);
-        }
-    }
-    long long sumSubarrayMaxs(vector<int>& nums) {
-        vector<int>nextmx;
-        vector<int>prevmx;
-        int n=nums.size();
-        nextGreater(nums,n,nextmx);
-        reverse(nextmx.begin(),nextmx.end());
-
-        for(int i=0; i<n; i++){
-            if(nextmx[i]==-1){
-                nextmx[i]=n;
-            }
-        }
-
-        prevGreater(nums,n,prevmx);
-        
-        long long sum=0;
-        for(int i=0; i<n; i++){
-            long long nextS=nextmx[i]-i;
-            long long prevS=i-prevmx[i];
-            long long mul=(nextS)*(prevS);
-            long long total=(mul*nums[i]);
-            sum=(sum+total);
-        }
-        return sum;
+        return ans;
     }
 
+
+    long long sumMax(vector<int>& nums, int n){
+        auto pgee=findPGEE(nums,n);
+        auto nge=findNGE(nums,n);
+        long long ans=0;
+        for(int i=0; i<n; i++){
+            int left=i-pgee[i];
+            int right=nge[i]-i;
+            ans+=(1LL*left*right*nums[i]);
+        }
+        return ans;
+    }
     long long subArrayRanges(vector<int>& nums) {
-
-        long long minSum=sumSubarrayMaxs(nums);
-        long long maxSum=sumSubarrayMins(nums);
-        cout<<minSum<<" "<<maxSum;
-        long long ans=maxSum-minSum;
-        return -ans;
-        
+        int n=nums.size();
+        long long sumOfMax=sumMax(nums,n);
+        long long sumOfMin=sumMin(nums,n);
+        return sumOfMax-sumOfMin;
     }
 };
