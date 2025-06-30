@@ -5,10 +5,11 @@ public:
         vector<int>nge(n);
         stack<int>st;
         for(int i=2*n; i>=0; i--){
+            
+            while(!st.empty() && st.top()<=nums[i%n]){
+                st.pop();
+            }
             if(i<n){
-                while(!st.empty() && st.top()<=nums[i]){
-                    st.pop();
-                }
                 if(st.empty()){
                     nge[i]=-1;
                 }
