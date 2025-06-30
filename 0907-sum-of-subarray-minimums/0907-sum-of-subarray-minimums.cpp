@@ -1,52 +1,51 @@
 class Solution {
 public:
-    void nextSmaller(vector<int>& arr,int n, vector<int>&next){
+    vector<int> findPSEE(vector<int>& arr, int n){
+        vector<int>ans(n);
         stack<int>st;
-        st.push(-1);
-        for(int i=n-1; i>=0; i--){
-            int ele = arr[i];
-            while(!st.empty() && st.top()!=-1 && arr[st.top()]>ele){
-                st.pop();
-            }
-            next.push_back(st.top());
-            st.push(i);
-        }
-    }
-    void prevSmaller(vector<int>&arr,int n, vector<int>&prev){
-        stack<int>st;
-        st.push(-1);
         for(int i=0; i<n; i++){
-            int ele=arr[i];
-            while(!st.empty() && st.top()!=-1 && arr[st.top()]>=ele){
+            while(!st.empty() && arr[st.top()]>=arr[i]){
                 st.pop();
             }
-            prev.push_back(st.top());
+            if(st.empty()){
+                ans[i]=-1;
+            }
+            else{
+                ans[i]=st.top();
+            }
             st.push(i);
         }
+        return ans;
+    }
+
+    vector<int> findNSE(vector<int>& arr,int n){
+        vector<int>ans(n);
+        stack<int>st;
+        for(int i=n-1; i>=0; i--){
+            while(!st.empty() && arr[st.top()]>arr[i]){
+                st.pop();
+            }
+            if(st.empty()){
+                ans[i]=n;
+            }
+            else{
+                ans[i]=st.top();
+            }
+            st.push(i);
+        }
+        return ans;
     }
     int sumSubarrayMins(vector<int>& arr) {
-        vector<int>next;
-        vector<int>prev;
         int n=arr.size();
-        nextSmaller(arr,n,next);
-        reverse(next.begin(),next.end());
-
+        auto psee = findPSEE(arr,n);
+        auto nse = findNSE(arr,n);
+        int ans=0;
+        int mod=(int)(1e9+7);
         for(int i=0; i<n; i++){
-            if(next[i]==-1){
-                next[i]=n;
-            }
+            int left = i-psee[i];
+            int right = nse[i]-i;
+            ans = (ans+(1LL*left*right*arr[i])%mod)%mod;
         }
-
-        prevSmaller(arr,n,prev);
-        const int mod = 1e9+7;
-        long long sum=0;
-        for(int i=0; i<n; i++){
-            int nextS=next[i]-i;
-            int prevS=i-prev[i];
-            long long mul=((nextS%mod)*(prevS%mod))%mod;
-            long long total=(mul*arr[i])%mod;
-            sum=(sum+total)%mod;
-        }
-        return sum;
+        return ans;
     }
 };
