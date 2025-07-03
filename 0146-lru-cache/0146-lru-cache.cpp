@@ -44,10 +44,8 @@ public:
         }
         Node* node = mp[key1];
         int res=node->value;
-        mp.erase(key1);
         deleteNode(node);
         insertAtHead(node);
-        mp[key1]=head->next;
         return res;
     }
 
