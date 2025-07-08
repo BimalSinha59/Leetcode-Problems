@@ -11,43 +11,51 @@
  */
 class Solution {
 public:
-    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
-        vector<vector<int>>ans;
+
+    void solve(TreeNode* root,vector<vector<int>> &ans,vector<int> &v){
+        int x=0;
         if(root==NULL){
-            return ans;
+            return;
         }
         queue<TreeNode*>q;
         q.push(root);
         q.push(NULL);
-        vector<int>temp;
-        int c=1;
+
         while(!q.empty()){
-            TreeNode* node=q.front();
-            if(node!=NULL) temp.push_back(node->val);
+            TreeNode* front=q.front();
             q.pop();
-            if(node==NULL){
-                if(c&1){
-                    ans.push_back(temp);
+            if(front==NULL){
+                if(x%2==0){
+                    ans.push_back(v);
+                    v.clear();
                 }
                 else{
-                    reverse(temp.begin(), temp.end());
-                    ans.push_back(temp);
+                    reverse(v.begin(),v.end());
+                    ans.push_back(v);
+                    v.clear();
                 }
+                x++;
                 if(!q.empty()){
                     q.push(NULL);
-                    c++;
-                    temp.clear();
                 }
             }
             else{
-                if(node->left!=NULL){
-                    q.push(node->left);
+                v.push_back(front->val);
+                if(front->left!=NULL){
+                    q.push(front->left);
                 }
-                if(node->right!=NULL){
-                    q.push(node->right);
+
+                if(front->right!=NULL){
+                    q.push(front->right);
                 }
             }
         }
+    }
+    
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        vector<vector<int>>ans;
+        vector<int>v;
+        solve(root,ans,v);
         return ans;
     }
 };
