@@ -30,13 +30,27 @@ public:
         s.erase(size);
         return;
     }
+
+    void f(TreeNode* root, string s, vector<string>& ans){
+        s+=to_string(root->val);
+        if(root->left==NULL && root->right==NULL){
+            ans.push_back(s);
+        }
+        if(root->left!=NULL){
+            f(root->left,s+"->",ans);
+        }
+        if(root->right!=NULL){
+            f(root->right,s+"->",ans);
+        }
+    }
     vector<string> binaryTreePaths(TreeNode* root) {
         vector<string>ans;
         if(root==NULL){
             return ans;
         }
         string s="";
-        preOT(root,s,ans);
+        //preOT(root,s,ans);
+        f(root,s,ans);
         return ans;
     }
 };
