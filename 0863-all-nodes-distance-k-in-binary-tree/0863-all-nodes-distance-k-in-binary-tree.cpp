@@ -17,9 +17,11 @@ public:
             q.pop();
             if(node->left){
                 parent_link[node->left]=node;
+                q.push(node->left);
             }
             if(node->right){
                 parent_link[node->right]=node;
+                q.push(node->right);
             }
         }
     }
