@@ -11,31 +11,22 @@
  */
 class Solution {
 public:
-    void preot(TreeNode* root,queue<TreeNode*>& q){
-        if(root == NULL){
-            return;
-        }
-        q.push(root);
-        preot(root->left, q);
-        preot(root->right, q);
-    }
     void flatten(TreeNode* root) {
         if(root==NULL){
             return;
         }
-        queue<TreeNode*>q;
-        preot(root, q);
-        if(!q.empty()){
-            q.pop();
-        }
-        while(!q.empty()){
-            TreeNode* node=q.front();
-            q.pop();
-           
-            root->right=node;
-            root->left=NULL;
-            root=root->right;
-            
+        TreeNode* curr=root;
+        while(curr!=NULL){
+            if(curr->left!=NULL){
+                TreeNode* prev=curr->left;
+                while(prev->right){
+                    prev=prev->right;
+                }
+                prev->right=curr->right;
+                curr->right=curr->left;
+                curr->left=NULL;
+            }
+            curr=curr->right;
         }
     }
 };
