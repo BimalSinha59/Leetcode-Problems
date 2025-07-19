@@ -11,17 +11,25 @@
  */
 class Solution {
 public:
-    void inOT(TreeNode* root, vector<int>& v){
+    void inOT(TreeNode* root,int &cnt, int k, int &ans){
         if(root==NULL){
             return;
         }
-        inOT(root->left,v);
-        v.push_back(root->val);
-        inOT(root->right,v);
+        inOT(root->left,cnt,k,ans);
+        cnt++;
+        if(cnt==k){
+            ans=root->val;
+            return;
+        }
+        inOT(root->right,cnt,k,ans);
     }
     int kthSmallest(TreeNode* root, int k) {
-        vector<int>inOrder;
-        inOT(root,inOrder);
-        return inOrder[k-1];
+        // vector<int>inOrder;
+        // inOT(root,inOrder);
+        // return inOrder[k-1];
+        int cnt=0;
+        int ans=0;
+        inOT(root,cnt,k,ans);
+        return ans;
     }
 };
