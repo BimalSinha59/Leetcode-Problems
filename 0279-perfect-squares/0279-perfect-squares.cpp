@@ -25,7 +25,22 @@ public:
             }
         }
         int m=v.size();
-        vector<vector<int>>dp(m,vector<int>(n+1,-1));
-        return f(m-1,v,n,dp);
+        //return f(m-1,v,n,dp);
+
+        vector<vector<int>>dp(m,vector<int>(n+1,0));
+        for(int i=0; i<=n; i++){
+            dp[0][i]=i;
+        }
+        for(int i=1; i<m; i++){
+            for(int j=0; j<=n; j++){
+                int ntake=0+dp[i-1][j];
+                int take=1e9;
+                if(j>=v[i]){
+                    take=1+dp[i][j-v[i]];
+                }
+                dp[i][j]=min(take,ntake);
+            }
+        }
+        return dp[m-1][n];
     }
 };
