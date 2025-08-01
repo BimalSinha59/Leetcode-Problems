@@ -27,20 +27,22 @@ public:
         int m=v.size();
         //return f(m-1,v,n,dp);
 
-        vector<vector<int>>dp(m,vector<int>(n+1,0));
+        //vector<vector<int>>dp(m,vector<int>(n+1,0));
+        vector<int>prev(n+1,0),curr(n+1,0);
         for(int i=0; i<=n; i++){
-            dp[0][i]=i;
+            prev[i]=i;
         }
         for(int i=1; i<m; i++){
             for(int j=0; j<=n; j++){
-                int ntake=0+dp[i-1][j];
+                int ntake=0+prev[j];
                 int take=1e9;
                 if(j>=v[i]){
-                    take=1+dp[i][j-v[i]];
+                    take=1+curr[j-v[i]];
                 }
-                dp[i][j]=min(take,ntake);
+                curr[j]=min(take,ntake);
             }
+            prev=curr;
         }
-        return dp[m-1][n];
+        return prev[n];
     }
 };
