@@ -5,22 +5,37 @@ public:
         int l=0,r=0;
         int ans=0;
         int zs=0;
+        // while(r<n){
+        //     if(nums[r]==0){
+        //         zs++;
+        //     }
+        //     if(zs<=k){
+        //         int len=r-l+1;
+        //         ans=max(ans,len);
+        //     }
+        //     else{
+        //         while(l<n && zs>k){
+        //             if(nums[l]==0){
+        //                 zs--;
+        //             }
+        //             l++;
+        //         }
+        //     }
+        //     r++;
+        // } TC => O(2N)
+
         while(r<n){
             if(nums[r]==0){
                 zs++;
             }
-            if(zs<=k){
-                int len=r-l+1;
-                ans=max(ans,len);
-            }
-            else{
-                while(l<n && zs>k){
-                    if(nums[l]==0){
-                        zs--;
-                    }
-                    l++;
+            if(zs>k){
+                if(nums[l]==0){
+                    zs--;
                 }
+                l++;
             }
+            int len=r-l+1;
+            ans=max(ans,len);
             r++;
         }
         return ans;
