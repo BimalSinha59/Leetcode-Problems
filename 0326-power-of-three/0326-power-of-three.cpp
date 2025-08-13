@@ -1,11 +1,12 @@
 class Solution {
 public:
     bool isPowerOfThree(int n) {
-        for(int i=0; i<(31*(1/log2(3))); i++){
-            int ans = pow(3, i);
-            if(ans==n) return true;
+        if(n<=0){
+            return false;
+        }
+        if(1162261467%n==0){
+            return true;
         }
         return false;
-        
     }
 };
