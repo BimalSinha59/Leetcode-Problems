@@ -6,10 +6,11 @@ public:
         int maxi=0;
         for(auto it:nums){
             mp[it]++;
-            maxi=max(maxi,mp[it]);
-        }
-        for(auto it:mp){
-            if(it.second==maxi){
+            if(mp[it]>maxi){
+                maxi=mp[it];
+                ans=1;
+            }
+            else if(mp[it]==maxi){
                 ans++;
             }
         }
