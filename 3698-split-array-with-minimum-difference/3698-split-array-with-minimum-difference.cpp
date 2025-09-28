@@ -15,7 +15,7 @@ public:
         }
         if (i != j) {
             if (j == i + 1) {
-                return max(lsum, rsum);
+                return abs((lsum + nums[i]) - (rsum + nums[j]));
             }
             return -1;
         }
