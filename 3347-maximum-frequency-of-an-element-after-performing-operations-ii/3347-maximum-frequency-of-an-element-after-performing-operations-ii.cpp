@@ -2,7 +2,7 @@ class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k, int numOperations) {
         int n = nums.size();
-        map<int, int> mp, freq;
+        unordered_map<int, int> mp, freq;
         set<int> st;
         for (int num : nums) {
             freq[num]++;
