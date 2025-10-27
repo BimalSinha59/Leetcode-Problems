@@ -1,20 +1,31 @@
 class Solution {
 public:
     int numberOfBeams(vector<string>& bank) {
-        int ans = 0;
-        int prvs = 0;
-        for (auto it : bank) {
-            int curr = 0;
-            for (auto ch : it) {
-                if (ch == '1') {
-                    curr++;
+        int n = bank.size();
+        int count = 0;
+        vector<int> ans;
+        for(int i= 0;i<n; i++){
+            for(int j= 0; j<bank[i].length(); j++){
+                if(bank[i][j]=='1'){
+                    count++;
                 }
             }
-            ans += prvs * curr;
-            if (curr != 0) {
-                prvs = curr;
+            if(count>0){
+                ans.push_back(count);
             }
+            count =0;
         }
-        return ans;
+        if(ans.size()==1) return 0;
+
+        int i=0;
+        int j=1;
+        int answer =0;
+        while(i>=0 && j<ans.size())
+        {
+            answer = answer+(ans[i]*ans[j]);
+            i++;
+            j++;
+        }
+        return answer;
     }
 };
