@@ -1,17 +1,16 @@
 class Solution {
 public:
     vector<int> getSneakyNumbers(vector<int>& nums) {
-        unordered_map<int,int>mp;
-        int a=-1,b=-1;
-        for(auto it:nums){
-            mp[it]++;
-            if(mp[it]==2 && a==-1){
-                a=it;
-            }
-            else if(mp[it]==2){
-                b=it;
-            }
+        int n=nums.size()-2;
+        int sm=0;
+        int ssm=0;
+        for(int& it:nums){
+            sm+=it;
+            ssm+=(it*it);
         }
-        return {a,b};
+        int snm=n*(n-1)/2;
+        int ssnm=n*(n-1)*(2*n-1)/6;
+        int s1=sm-snm, s2=ssm-ssnm;
+        return {int(s1+sqrt(2*s2-s1*s1))/2,int(s1-sqrt(2*s2-s1*s1))/2};
     }
 };
