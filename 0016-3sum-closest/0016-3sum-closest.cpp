@@ -31,6 +31,9 @@ public:
                     break;
                 }
             }
+            if (mini == 0) {
+                break;
+            }
         }
         return ans;
     }
