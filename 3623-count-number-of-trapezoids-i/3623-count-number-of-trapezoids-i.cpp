@@ -2,7 +2,7 @@ class Solution {
 public:
     int countTrapezoids(vector<vector<int>>& points) {
         int n = points.size();
-        map<int, int> mp;
+        unordered_map<int, int> mp;
         for (auto it : points) {
             mp[it[1]]++;
         }
