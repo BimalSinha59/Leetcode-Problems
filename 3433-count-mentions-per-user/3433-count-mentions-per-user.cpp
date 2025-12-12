@@ -1,5 +1,18 @@
 class Solution {
 public:
+    static bool cmp(vector<string>& a, vector<string>& b){
+        int numA = stoi(a[1]);
+        int numB = stoi(b[1]);
+
+        if (numA != numB){
+            return numA < numB;
+        }
+
+        if (a[0] == "OFFLINE" && b[0] == "MESSAGE") return true;
+        if (a[0] == "MESSAGE" && b[0] == "OFFLINE") return false;
+
+        return false;
+    }
     vector<int> countMentions(int numberOfUsers, vector<vector<string>>& events) {
         vector<int>ans(numberOfUsers,0);
         vector<pair<int,int>>v(numberOfUsers);
@@ -7,6 +20,7 @@ public:
             v[i].first=0;
             v[i].second=0;
         }
+        sort(events.begin(),events.end(),cmp);
         for(auto &it:events){
             if(it[0]=="MESSAGE"){
                 if(it[2]=="ALL"){
