@@ -4,16 +4,17 @@ public:
         int n = s.size();
         int ans = 1;
         for (int i = 0; i < n; i++) {
-            unordered_map<char, int> mp;
+            vector<int>freq(26,0);
+            int maxi=0;
+            int de=0;
             for (int j = i; j < n; j++) {
-                mp[s[j]]++;
-                int mini = 1e9, maxi = -1e9;
-                for (auto it : mp) {
-                    mini = min(mini, it.second);
-                    maxi = max(maxi, it.second);
+                freq[s[j]-'a']++;
+                if(freq[s[j]-'a']==1){
+                    de++;
                 }
-                if (mini == maxi) {
-                    ans = max(ans, (int)mp.size() * mini);
+                maxi=max(maxi,freq[s[j]-'a']);
+                if(de*maxi==(j-i+1)){
+                    ans=max(ans,de*maxi);
                 }
             }
         }
