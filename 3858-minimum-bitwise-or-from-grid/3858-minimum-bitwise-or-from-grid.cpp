@@ -2,7 +2,7 @@ class Solution {
 public:
     int minimumOR(vector<vector<int>>& grid) {
         int ans = 0;
-        for (int i = 20; i >= 0; --i) {
+        for (int i = 20; i >= 0; i--) {
             int b = 1 << i;
             int mask = ans | (b - 1);
             for (auto& r : grid) {
