@@ -11,52 +11,24 @@
 class Solution {
 public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
-        ListNode* temp1 = l1;
-        ListNode* temp2 = l2;
-        int carry = 0;
         ListNode* ans = new ListNode(-1);
         ListNode* temp = ans;
-        while (temp1 && temp2) {
-            int sum = (temp1->val + temp2->val + carry);
-            temp->next = new ListNode(sum % 10);
-            carry = sum / 10;
-            temp1 = temp1->next;
-            temp2 = temp2->next;
-            temp = temp->next;
-        }
-        if (temp1 && !carry) {
-            temp->next = temp1;
-        } else if (temp2 && !carry) {
-            temp->next = temp2;
-        }
-        while (temp1 && carry) {
-            int sum = (temp1->val + carry);
-            temp1->val = sum % 10;
-            carry = sum / 10;
-            temp->next = temp1;
-            temp = temp->next;
-            if (!temp1->next && carry) {
-                temp1->next = new ListNode(carry);
-                temp = temp1->next;
-                carry = 0;
+        int carry = 0;
+        while (l1 || l2 || carry) {
+            int sum = 0;
+            if (l1) {
+                sum += l1->val;
+                l1 = l1->next;
             }
-            temp1 = temp1->next;
-        }
-        while (temp2 && carry) {
-            int sum = (temp2->val + carry);
-            temp2->val = sum % 10;
-            carry = sum / 10;
-            temp->next = temp2;
-            temp = temp->next;
-            if (!temp2->next && carry) {
-                temp2->next = new ListNode(carry);
-                temp = temp2->next;
-                carry = 0;
+            if (l2) {
+                sum += l2->val;
+                l2 = l2->next;
             }
-            temp2 = temp2->next;
-        }
-        if (carry) {
-            temp->next = new ListNode(1);
+            sum += carry;
+            ListNode* node = new ListNode(sum % 10);
+            carry = sum / 10;
+            temp->next = node;
+            temp = temp->next;
         }
         return ans->next;
     }
