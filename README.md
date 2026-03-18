@@ -128,6 +128,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
@@ -142,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0082-remove-duplicates-from-sorted-list-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
