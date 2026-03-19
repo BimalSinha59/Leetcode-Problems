@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 ## Math
 | Problem Name | Difficulty |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
+| [0025-reverse-nodes-in-k-group](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
