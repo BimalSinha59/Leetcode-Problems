@@ -16,47 +16,47 @@ public:
 
 class Solution {
 public:
-    Node* copyRandomList(Node* head) {
+    void insertCopyInBetween(Node* head) {
         Node* temp = head;
-        unordered_map<Node*, int> mp1;
-        int idx = 0;
-        while (temp) {
-            mp1[temp] = idx;
-            temp = temp->next;
-            idx++;
+        while (temp != NULL) {
+            Node* nextElement = temp->next;
+            Node* copy = new Node(temp->val);
+            copy->next = nextElement;
+            temp->next = copy;
+            temp = nextElement;
         }
-        unordered_map<int, Node*> mp2;
-        temp = head;
-        idx = 0;
-        while (temp) {
-            Node* nnode = new Node(temp->val);
-            mp2[idx] = nnode;
-            temp = temp->next;
-            idx++;
-        }
-        for (auto& it : mp1) {
-            Node* node = it.first;
-            int idx = it.second;
-            int nidx = -1;
-            if (node->next) {
-                nidx = mp1[node->next];
-            }
-            int ridx = -1;
-            if (node->random) {
-                ridx = mp1[node->random];
-            }
-            Node* nnode = mp2[idx];
-            if (nidx == -1) {
-                nnode->next = NULL;
+    }
+    void connectRandomPointers(Node* head) {
+        Node* temp = head;
+        while (temp != NULL) {
+            Node* copyNode = temp->next;
+            if (temp->random) {
+                copyNode->random = temp->random->next;
             } else {
-                nnode->next = mp2[nidx];
+                copyNode->random = NULL;
             }
-            if (ridx == -1) {
-                nnode->random = NULL;
-            } else {
-                nnode->random = mp2[ridx];
-            }
+            temp = temp->next->next;
         }
-        return mp2[0];
+    }
+    Node* getDeepCopyList(Node* head) {
+        Node* temp = head;
+        Node* dummyNode = new Node(-1);
+        Node* res = dummyNode;
+        while (temp != NULL) {
+            res->next = temp->next;
+            res = res->next;
+            temp->next = temp->next->next;
+            temp = temp->next;
+        }
+        return dummyNode->next;
+    }
+
+    Node* copyRandomList(Node* head) {
+        if (head == NULL) {
+            return head;
+        }
+        insertCopyInBetween(head);
+        connectRandomPointers(head);
+        return getDeepCopyList(head);
     }
 };
