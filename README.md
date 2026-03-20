@@ -83,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [1980-find-unique-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1980-find-unique-binary-string/) | Medium |
@@ -137,6 +138,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0025-reverse-nodes-in-k-group](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
 | [0061-rotate-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0061-rotate-list/) | Medium |
 | [0082-remove-duplicates-from-sorted-list-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0082-remove-duplicates-from-sorted-list-ii/) | Medium |
+| [0138-copy-list-with-random-pointer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
