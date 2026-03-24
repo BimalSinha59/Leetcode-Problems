@@ -16,12 +16,7 @@ public:
         long long left = 1;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
-                int right = 1;
-                if (j == m - 1 && i != n - 1) {
-                    right = smul[i + 1][0];
-                } else if (j != m - 1) {
-                    right = smul[i][j + 1];
-                }
+                int right = j + 1 == m ? (i + 1 == n ? 1 : smul[i + 1][0]) : smul[i][j + 1];
                 ans[i][j] = ((left % MOD) * (right % MOD)) % MOD;
                 left = ((left % MOD) * (grid[i][j] % MOD)) % MOD;
             }
