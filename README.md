@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -112,6 +113,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0022-generate-parentheses/) | Medium |
+| [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3211-generate-binary-strings-without-adjacent-zeros/) | Medium |
@@ -142,6 +144,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0476-number-complement](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3211-generate-binary-strings-without-adjacent-zeros/) | Medium |
