@@ -15,6 +15,7 @@ public:
         int n = nums.size();
         vector<vector<int>> ans;
         vector<int> curr;
+        sort(nums.begin(), nums.end());
         solve(0, n, curr, nums, ans);
         return ans;
     }
