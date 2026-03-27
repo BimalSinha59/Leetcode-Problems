@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0051-n-queens](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0216-combination-sum-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0216-combination-sum-iii/) | Medium |
@@ -123,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0022-generate-parentheses/) | Medium |
+| [0051-n-queens](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0131-palindrome-partitioning/) | Medium |
