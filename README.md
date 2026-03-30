@@ -72,6 +72,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
+| [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1758-minimum-changes-to-make-alternating-binary-string/) | Easy |
@@ -96,6 +97,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0050-powx-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0050-powx-n/) | Medium |
+| [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1922-count-good-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1922-count-good-numbers/) | Medium |
@@ -141,6 +143,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0131-palindrome-partitioning](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0131-palindrome-partitioning/) | Medium |
 | [0216-combination-sum-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0216-combination-sum-iii/) | Medium |
+| [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) | Medium |
 | [1980-find-unique-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3211-generate-binary-strings-without-adjacent-zeros/) | Medium |
