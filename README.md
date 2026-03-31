@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
+| [0029-divide-two-integers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0029-divide-two-integers/) | Medium |
 | [0050-powx-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0050-powx-n/) | Medium |
 | [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
@@ -176,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0029-divide-two-integers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0029-divide-two-integers/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0476-number-complement](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1009-complement-of-base-10-integer/) | Easy |
