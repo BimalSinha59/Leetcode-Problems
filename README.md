@@ -179,6 +179,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0029-divide-two-integers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0029-divide-two-integers/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
+| [0461-hamming-distance](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0461-hamming-distance/) | Easy |
 | [0476-number-complement](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0476-number-complement/) | Easy |
 | [1009-complement-of-base-10-integer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1009-complement-of-base-10-integer/) | Easy |
 | [2220-minimum-bit-flips-to-convert-number](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2220-minimum-bit-flips-to-convert-number/) | Easy |
