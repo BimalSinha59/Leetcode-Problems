@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
+| [0204-count-primes](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0204-count-primes/) | Medium |
 | [0216-combination-sum-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0216-combination-sum-iii/) | Medium |
 | [0260-single-number-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0260-single-number-iii/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -103,6 +104,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0029-divide-two-integers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0029-divide-two-integers/) | Medium |
 | [0050-powx-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0050-powx-n/) | Medium |
+| [0204-count-primes](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0204-count-primes/) | Medium |
 | [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -255,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0204-count-primes](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0204-count-primes/) | Medium |
 | [3546-equal-sum-grid-partition-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
 ## Depth-First Search
@@ -277,4 +280,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [2751-robot-collisions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2751-robot-collisions/) | Hard |
+## Number Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0204-count-primes](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0204-count-primes/) | Medium |
 <!---LeetCode Topics End-->
