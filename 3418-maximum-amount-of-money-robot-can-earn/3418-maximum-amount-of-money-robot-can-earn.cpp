@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int solve(int i, int j, int k, int n, int m, vector<vector<int>>& coins,
-              vector<vector<vector<int>>>& dp) {
+    int solve(int i, int j, int k, int n, int m, vector<vector<int>>& coins, vector<vector<vector<int>>>& dp) {
         if (i == n - 1 && j == m - 1) {
             if (coins[i][j] < 0 && k > 0) {
                 return 0;
@@ -28,8 +27,7 @@ public:
     int maximumAmount(vector<vector<int>>& coins) {
         int n = coins.size();
         int m = coins[0].size();
-        vector<vector<vector<int>>> dp(
-            n, vector<vector<int>>(m, vector<int>(3, INT_MIN)));
+        vector<vector<vector<int>>> dp(n, vector<vector<int>>(m, vector<int>(3, INT_MIN)));
         return solve(0, 0, 2, n, m, coins, dp);
     }
 };
