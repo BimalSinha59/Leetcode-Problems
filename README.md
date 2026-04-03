@@ -255,6 +255,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 ## Segment Tree
 | Problem Name | Difficulty |
@@ -287,6 +288,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [2751-robot-collisions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2751-robot-collisions/) | Hard |
 ## Number Theory
 | Problem Name | Difficulty |
@@ -296,4 +298,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
+| [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
 <!---LeetCode Topics End-->
