@@ -151,6 +151,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 | [1980-find-unique-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
@@ -267,6 +268,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
 ## Segment Tree
@@ -301,6 +303,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 | [2751-robot-collisions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2751-robot-collisions/) | Hard |
 ## Number Theory
 | Problem Name | Difficulty |
@@ -311,4 +314,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 <!---LeetCode Topics End-->
