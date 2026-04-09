@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
 | [3847-find-the-score-difference-in-a-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3847-find-the-score-difference-in-a-game/) | Medium |
+| [3892-minimum-operations-to-achieve-at-least-k-peaks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3892-minimum-operations-to-achieve-at-least-k-peaks/) | Hard |
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -140,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3130-find-all-possible-stable-binary-arrays-ii/) | Hard |
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3418-maximum-amount-of-money-robot-can-earn/) | Medium |
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3661-maximum-walls-destroyed-by-robots/) | Hard |
+| [3892-minimum-operations-to-achieve-at-least-k-peaks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3892-minimum-operations-to-achieve-at-least-k-peaks/) | Hard |
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
