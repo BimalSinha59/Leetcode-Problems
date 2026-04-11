@@ -1,21 +1,21 @@
 class Solution {
 public:
-    vector<bool> prime;
+    vector<bool> is_prime;
     vector<int> soe(int n) {
-        prime.resize(n + 1, true);
-        prime[0] = false, prime[1] = false;
+        is_prime.resize(n + 1, true);
+        is_prime[0] = false, is_prime[1] = false;
         for (int p = 2; p * p <= n; p++) {
 
-            if (prime[p] == true) {
+            if (is_prime[p] == true) {
 
                 for (int i = p * p; i <= n; i += p)
-                    prime[i] = false;
+                    is_prime[i] = false;
             }
         }
 
         vector<int> primes;
         for (int p = 2; p <= n; p++) {
-            if (prime[p]) {
+            if (is_prime[p]) {
                 primes.push_back(p);
             }
         }
@@ -23,26 +23,17 @@ public:
     }
     int minOperations(vector<int>& nums) {
         int n = nums.size();
-        vector<int> primes = soe(2e5);
+        vector<int> primes = soe(1e5 + 5);
         int ans = 0;
         for (int i = 0; i < n; i++) {
             if (i & 1) {
-                if (prime[nums[i]]) {
+                if (is_prime[nums[i]]) {
                     ans += (nums[i] == 2 ? 2 : 1);
                 }
             } else {
-                if (!prime[nums[i]]) {
-                    int s = 0, e = primes.size() - 1;
-                    int idx = -1;
-                    while (s <= e) {
-                        int mid = (s + e) / 2;
-                        if (primes[mid] >= nums[i]) {
-                            idx = mid;
-                            e = mid - 1;
-                        } else {
-                            s = mid + 1;
-                        }
-                    }
+                if (!is_prime[nums[i]]) {
+                    int idx =
+                        lower_bound(primes.begin(), primes.end(), nums[i]) - primes.begin();
                     int diff = primes[idx] - nums[i];
                     ans += diff;
                 }
