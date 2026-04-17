@@ -3,21 +3,18 @@ public:
     int minMirrorPairDistance(vector<int>& nums) {
         int n = nums.size();
         unordered_map<int, int> mp;
-        for (int i = 0; i < n; i++) {
-            mp[nums[i]] = i;
-        }
         int ans = 1e9;
-        for (int i = 0; i < n; i++) {
-            int num = nums[i];
-            string str = to_string(num);
-            while (!str.empty() && str.back() == '0') {
-                str.pop_back();
+        int i = 0;
+        for (int& num : nums) {
+            int r;
+            if (mp.count(num)) {
+                ans = min(ans, i - mp[num]);
             }
-            reverse(str.begin(), str.end());
-            num = stoi(str);
-            if (mp.find(num) != mp.end() && mp[num] > i) {
-                ans = min(ans, mp[num] - i);
+            for (r = 0; num > 0; num /= 10) {
+                r = r * 10 + (num % 10);
             }
+            mp[r] = i;
+            i++;
         }
         return ans == 1e9 ? -1 : ans;
     }
