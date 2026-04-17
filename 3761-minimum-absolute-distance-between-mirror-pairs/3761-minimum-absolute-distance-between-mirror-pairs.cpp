@@ -19,9 +19,6 @@ public:
                 ans = min(ans, mp[num] - i);
             }
         }
-        if (ans == 1e9) {
-            return -1;
-        }
-        return ans;
+        return ans == 1e9 ? -1 : ans;
     }
 };
