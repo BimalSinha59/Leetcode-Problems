@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2452-words-within-two-edits-of-dictionary](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
 | [2573-find-the-string-with-lcp](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2573-find-the-string-with-lcp/) | Hard |
+| [2833-furthest-point-from-origin](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [2839-check-if-strings-can-be-made-equal-with-operations-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2839-check-if-strings-can-be-made-equal-with-operations-i/) | Easy |
 | [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2840-check-if-strings-can-be-made-equal-with-operations-ii/) | Medium |
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3211-generate-binary-strings-without-adjacent-zeros/) | Medium |
@@ -146,6 +147,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [2833-furthest-point-from-origin](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3848-check-digitorial-permutation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3848-check-digitorial-permutation/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
