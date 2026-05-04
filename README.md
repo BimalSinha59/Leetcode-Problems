@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0051-n-queens/) | Hard |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
@@ -148,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0029-divide-two-integers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0029-divide-two-integers/) | Medium |
+| [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0050-powx-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0050-powx-n/) | Medium |
 | [0204-count-primes](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0204-count-primes/) | Medium |
 | [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
