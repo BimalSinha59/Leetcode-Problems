@@ -10,10 +10,10 @@
  */
 class Solution {
 public:
-    int getLength(ListNode* curr) {
+    int getLength(ListNode* head) {
         int ans = 0;
-        while (curr) {
-            curr = curr->next;
+        while (head) {
+            head = head->next;
             ans++;
         }
         return ans;
@@ -27,10 +27,11 @@ public:
         if (k == 0) {
             return head;
         }
-        k = n - k;
+        k = n - k - 1;
         ListNode* temp = head;
-        for (int i = 0; i < k - 1; i++) {
+        while (k) {
             temp = temp->next;
+            k--;
         }
         ListNode* lNode = temp;
         while (lNode->next) {
