@@ -1,33 +1,30 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int n = s.size(), m = t.size();
-        int hash[256] = {0};
-        for (int i = 0; i < m; i++) {
-            hash[t[i]]++;
+        int m = s.size(), n = t.size();
+        unordered_map<char, int> mp;
+        for (char& ch : t) {
+            mp[ch]++;
         }
-        int l = 0, sIdx = -1, mnLen = 1e9, cnt = 0;
-        for (int r = 0; r < n; r++) {
-            if (hash[s[r]] > 0) {
+        int left = 0, startIdx = -1, minLen = 1e9, cnt = 0;
+        for (int right = 0; right < m; right++) {
+            if (mp[s[right]] > 0) {
                 cnt++;
             }
-            hash[s[r]]--;
-            while (cnt == m) {
-                int len = r - l + 1;
-                if (len < mnLen) {
-                    sIdx = l;
-                    mnLen = len;
+            mp[s[right]]--;
+            while (cnt == n) {
+                int len = right - left + 1;
+                if (len < minLen) {
+                    startIdx = left;
+                    minLen = len;
                 }
-                hash[s[l]]++;
-                if (hash[s[l]] > 0) {
+                mp[s[left]]++;
+                if (mp[s[left]] > 0) {
                     cnt--;
                 }
-                l++;
+                left++;
             }
         }
-        if (sIdx == -1) {
-            return "";
-        }
-        return s.substr(sIdx, mnLen);
+        return startIdx == -1 ? "" : s.substr(startIdx, minLen);
     }
 };
