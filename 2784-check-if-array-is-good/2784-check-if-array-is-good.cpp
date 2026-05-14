@@ -4,16 +4,16 @@ public:
         int n = nums.size();
         unordered_map<int, int> mp;
         for (int& num : nums) {
-            mp[num]++;
-        }
-        for (int i = 1; i < n - 1; i++) {
-            if (mp[i] != 1) {
-                cout << i;
+            if (num >= n) {
                 return false;
             }
-        }
-        if (mp[n - 1] != 2) {
-            return false;
+            if (num < n - 1 && mp[num] > 0) {
+                return false;
+            }
+            if (num == n - 1 && mp[num] > 1) {
+                return false;
+            }
+            mp[num]++;
         }
         return true;
     }
