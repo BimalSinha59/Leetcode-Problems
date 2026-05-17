@@ -10,15 +10,9 @@ public:
             mp[card]++;
         }
         while (mp.size()) {
-            int cnt = 1;
             auto firstEle = mp.begin();
             int fkey = firstEle->first;
-            int fval = firstEle->second;
-            mp[fkey]--;
-            if (mp[fkey] == 0) {
-                mp.erase(fkey);
-            }
-            for (int i = fkey + 1; i < fkey + groupSize; i++) {
+            for (int i = fkey; i < fkey + groupSize; i++) {
                 if (mp.count(i) == 0) {
                     return false;
                 } else {
@@ -29,6 +23,6 @@ public:
                 }
             }
         }
-        return mp.empty();
+        return true;
     }
 };
