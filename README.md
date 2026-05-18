@@ -231,6 +231,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
@@ -342,12 +343,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
 | [0237-delete-node-in-a-linked-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0237-delete-node-in-a-linked-list/) | Medium |
+| [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Two Pointers
@@ -392,6 +395,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
+| [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
