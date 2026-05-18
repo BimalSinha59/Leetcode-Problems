@@ -9,7 +9,6 @@ public:
         vector<bool> vis(n, false);
         queue<int> q;
         q.push(0);
-        vis[0] = true;
         int steps = 0;
         while (!q.empty()) {
             int sz = q.size();
@@ -19,17 +18,19 @@ public:
                     return steps;
                 }
                 q.pop();
-                vis[idx] = true;
                 if (idx + 1 < n && !vis[idx + 1]) {
                     q.push(idx + 1);
+                    vis[idx+1]=true;
                 }
                 if (idx - 1 >= 0 && !vis[idx - 1]) {
                     q.push(idx - 1);
+                    vis[idx-1]=true;
                 }
                 if (mp[arr[idx]].size()) {
                     for (int& i : mp[arr[idx]]) {
                         if (!vis[i]) {
                             q.push(i);
+                            vis[i]=true;
                         }
                     }
                 }
