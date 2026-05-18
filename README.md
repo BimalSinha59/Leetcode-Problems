@@ -351,6 +351,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 ## Two Pointers
@@ -396,6 +397,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [2069-walking-robot-simulation-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2069-walking-robot-simulation-ii/) | Medium |
@@ -469,4 +471,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+## Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Binary Search Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Binary Tree
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Data Stream
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 <!---LeetCode Topics End-->
