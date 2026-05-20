@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1980-find-unique-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1980-find-unique-binary-string/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2452-words-within-two-edits-of-dictionary/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2515-shortest-distance-to-target-string-in-a-circular-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2515-shortest-distance-to-target-string-in-a-circular-array/) | Easy |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2573-find-the-string-with-lcp](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2573-find-the-string-with-lcp/) | Hard |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
@@ -380,6 +382,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1861-rotating-the-box/) | Medium |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2095-delete-the-middle-node-of-a-linked-list/) | Medium |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2540-minimum-common-value](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2540-minimum-common-value/) | Easy |
 | [3643-flip-square-submatrix-vertically](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3643-flip-square-submatrix-vertically/) | Easy |
 ## Sorting
@@ -395,6 +398,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
+| [2410-maximum-matching-of-players-with-trainers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
 | [2463-minimum-total-distance-traveled](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2463-minimum-total-distance-traveled/) | Hard |
 | [2751-robot-collisions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2751-robot-collisions/) | Hard |
 | [2784-check-if-array-is-good](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2784-check-if-array-is-good/) | Easy |
