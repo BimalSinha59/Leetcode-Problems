@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0216-combination-sum-iii/) | Medium |
 | [0260-single-number-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0260-single-number-iii/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0396-rotate-function](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0396-rotate-function/) | Medium |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -195,6 +196,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [2833-furthest-point-from-origin](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2833-furthest-point-from-origin/) | Easy |
 | [3848-check-digitorial-permutation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3848-check-digitorial-permutation/) | Medium |
 ## Dynamic Programming
@@ -233,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
 | [0160-intersection-of-two-linked-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0160-intersection-of-two-linked-lists/) | Easy |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
@@ -290,6 +293,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0023-merge-k-sorted-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3655-xor-after-range-multiplication-queries-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3655-xor-after-range-multiplication-queries-ii/) | Hard |
 | [3864-minimum-cost-to-partition-a-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3864-minimum-cost-to-partition-a-binary-string/) | Hard |
@@ -356,6 +360,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0023-merge-k-sorted-lists/) | Hard |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
@@ -379,6 +384,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
@@ -478,6 +484,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -494,4 +501,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+## Bucket Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 <!---LeetCode Topics End-->
