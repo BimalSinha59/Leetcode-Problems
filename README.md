@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
+| [1710-maximum-units-on-a-truck](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1848-minimum-distance-to-the-target-element](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
@@ -93,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0860-lemonade-change](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0860-lemonade-change/) | Easy |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [1710-maximum-units-on-a-truck](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [2078-two-furthest-houses-with-different-colors](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2078-two-furthest-houses-with-different-colors/) | Easy |
 | [2410-maximum-matching-of-players-with-trainers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2410-maximum-matching-of-players-with-trainers/) | Medium |
@@ -400,6 +402,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1331-rank-transform-of-an-array/) | Easy |
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
+| [1710-maximum-units-on-a-truck](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
