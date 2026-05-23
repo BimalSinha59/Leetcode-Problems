@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0051-n-queens](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0051-n-queens/) | Hard |
 | [0055-jump-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0055-jump-game/) | Medium |
+| [0057-insert-interval](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0057-insert-interval/) | Medium |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0135-candy](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0135-candy/) | Hard |
