@@ -241,6 +241,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0788-rotated-digits/) | Medium |
 | [1320-minimum-distance-to-type-a-word-using-two-fingers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1320-minimum-distance-to-type-a-word-using-two-fingers/) | Hard |
 | [1340-jump-game-v](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1340-jump-game-v/) | Hard |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
 | [1871-jump-game-vii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1871-jump-game-vii/) | Medium |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1888-minimum-number-of-flips-to-make-the-binary-string-alternating/) | Medium |
@@ -477,6 +478,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [1306-jump-game-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1306-jump-game-iii/) | Medium |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -539,14 +541,17 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 ## Data Stream
 | Problem Name | Difficulty |
 | ------- | ------- |
