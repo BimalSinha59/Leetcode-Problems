@@ -13,9 +13,8 @@ public:
         vector<int> adjL[n];
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < n; j++) {
-                if (isConnected[i][j] && i!=j) {
+                if (isConnected[i][j] && i != j) {
                     adjL[i].push_back(j);
-                    adjL[j].push_back(i);
                 }
             }
         }
