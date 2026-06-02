@@ -31,6 +31,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0860-lemonade-change/) | Easy |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
+| [0994-rotting-oranges](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0994-rotting-oranges/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1306-jump-game-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1306-jump-game-iii/) | Medium |
 | [1331-rank-transform-of-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1331-rank-transform-of-an-array/) | Easy |
@@ -130,6 +131,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
+| [0994-rotting-oranges](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0994-rotting-oranges/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -553,6 +555,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
+| [0994-rotting-oranges](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0994-rotting-oranges/) | Medium |
 | [1306-jump-game-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1306-jump-game-iii/) | Medium |
 | [1345-jump-game-iv](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
