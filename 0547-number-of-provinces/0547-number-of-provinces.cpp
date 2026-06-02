@@ -1,40 +1,32 @@
 class Solution {
 public:
-    void bfs(int idx,vector<vector<int>>& adjL,vector<int>& vis){
-        vis[idx]=1;
-        queue<int>q;
-        q.push(idx);
-        while(!q.empty()){
-            int node=q.front();
-            q.pop();
-            for(auto it:adjL[node]){
-                if(!vis[it]){
-                    vis[it]=1;
-                    q.push(it);
-                }
+    void dfs(int node, vector<int> adjL[], vector<bool>& vis) {
+        vis[node] = true;
+        for (int& adjNode : adjL[node]) {
+            if (!vis[adjNode]) {
+                dfs(adjNode, adjL, vis);
             }
         }
     }
     int findCircleNum(vector<vector<int>>& isConnected) {
-        int n=isConnected.size();
-        int m=isConnected[0].size();
-        vector<vector<int>>adjL(n);
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                 if(isConnected[i][j]==1 && i!=j){
+        int n = isConnected.size();
+        vector<int> adjL[n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (isConnected[i][j]) {
                     adjL[i].push_back(j);
-                 }
+                    adjL[j].push_back(i);
+                }
             }
         }
-        int ans=0;
-        vector<int>vis(n,0);
-        for(int i=0; i<n; i++){
-            if(!vis[i]){
-                ans++;
-                bfs(i,adjL,vis);
+        int no_of_pro = 0;
+        vector<bool> vis(n, false);
+        for (int i = 0; i < n; i++) {
+            if (!vis[i]) {
+                no_of_pro++;
+                dfs(i, adjL, vis);
             }
         }
-        
-        return ans;
+        return no_of_pro;
     }
 };
