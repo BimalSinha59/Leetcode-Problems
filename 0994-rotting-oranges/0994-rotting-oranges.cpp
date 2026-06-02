@@ -1,49 +1,42 @@
 class Solution {
 public:
     int orangesRotting(vector<vector<int>>& grid) {
-        int n=grid.size();
-        int m=grid[0].size();
-        vector<vector<int>>vis(n,vector<int>(m,0));
-        int fcnt=0;
-        queue<pair<pair<int,int>,int>>q;
-        for(int i=0; i<n; i++){
-            for(int j=0; j<m; j++){
-                if(grid[i][j]==2){
-                    vis[i][j]=2;
-                    q.push({{i,j},0});
-                }
-                else if(grid[i][j]==1){
-                    fcnt++;
+        int m = grid.size();
+        int n = grid[0].size();
+        vector<vector<int>> vis(m, vector<int>(n, 0));
+        queue<vector<int>> q;
+        int fresh_count = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (grid[i][j] == 2) {
+                    vis[i][j] = 1;
+                    q.push({i, j, 0});
+                } else if (grid[i][j] == 1) {
+                    fresh_count++;
                 }
             }
         }
-        int ans=0;
-        int cnt=0;
-        int drow[]={-1,0,1,0};
-        int dcol[]={0,1,0,-1};
-        while(!q.empty()){
-            int row=q.front().first.first;
-            int col=q.front().first.second;
-            int t=q.front().second;
-            ans=max(ans,t);
+        int min_time = 0;
+        vector<int> dr = {-1, 0, 1, 0};
+        vector<int> dc = {0, 1, 0, -1};
+        int count = 0;
+        while (!q.empty()) {
+            auto node = q.front();
             q.pop();
-            for(int i=0; i<4; i++){
-                int nrow=row+drow[i];
-                int ncol=col+dcol[i];
-                if(nrow>=0 && nrow<n && ncol>=0 && ncol<m && grid[nrow][ncol]==1 && vis[nrow][ncol]!=2){
-                    vis[nrow][ncol]=2;
-                    q.push({{nrow,ncol},t+1});
-                    cnt++;
+            int r = node[0];
+            int c = node[1];
+            int time = node[2];
+            min_time = max(min_time, time);
+            for (int i = 0; i < 4; i++) {
+                int nr = r + dr[i];
+                int nc = c + dc[i];
+                if (nr >= 0 && nr < m && nc >= 0 && nc < n && !vis[nr][nc] && grid[nr][nc] == 1) {
+                    count++;
+                    vis[nr][nc] = 1;
+                    q.push({nr, nc, time + 1});
                 }
             }
-
-
         }
-        if(cnt!=fcnt){
-            return -1;
-        }
-        return ans;
-
-        
+        return fresh_count == count ? min_time : -1;
     }
 };
