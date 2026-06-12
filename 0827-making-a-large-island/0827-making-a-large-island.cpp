@@ -11,15 +11,17 @@ public:
         }
     }
     int findUPar(int node) {
-        if (node == parent[node])
+        if (node == parent[node]){
             return node;
+        }
         return parent[node] = findUPar(parent[node]);
     }
     void unionBySize(int u, int v) {
         int ulp_u = findUPar(u);
         int ulp_v = findUPar(v);
-        if (ulp_u == ulp_v)
+        if (ulp_u == ulp_v){
             return;
+        }
         if (size[ulp_u] < size[ulp_v]) {
             parent[ulp_u] = ulp_v;
             size[ulp_v] += size[ulp_u];
@@ -39,44 +41,45 @@ public:
         int dc[] = {0, 1, 0, -1};
         for (int r = 0; r < n; r++) {
             for (int c = 0; c < n; c++) {
-                if (grid[r][c] == 0)
+                if (grid[r][c] == 0){
                     continue;
+                }
                 for (int i = 0; i < 4; i++) {
-                    int newr = r + dr[i];
-                    int newc = c + dc[i];
-                    if (newr >= 0 && newr < n && newc >= 0 && newc < n &&
-                        grid[newr][newc] == 1) {
+                    int nr = r + dr[i];
+                    int nc = c + dc[i];
+                    if (nr >= 0 && nr < n && nc >= 0 && nc < n &&
+                        grid[nr][nc] == 1) {
                         int nodeNo = r * n + c;
-                        int adjNNo = newr * n + newc;
+                        int adjNNo = nr * n + nc;
                         ds.unionBySize(nodeNo, adjNNo);
                     }
                 }
             }
         }
-        int largestIld = 0;
+        int largest_island = 0;
         for (int r = 0; r < n; r++) {
             for (int c = 0; c < n; c++) {
                 if (grid[r][c] == 1)
                     continue;
                 set<int> components;
                 for (int i = 0; i < 4; i++) {
-                    int newr = r + dr[i];
-                    int newc = c + dc[i];
-                    if (newr >= 0 && newr < n && newc >= 0 && newc < n &&
-                        grid[newr][newc] == 1) {
-                        components.insert(ds.findUPar(newr * n + newc));
+                    int nr = r + dr[i];
+                    int nc = c + dc[i];
+                    if (nr >= 0 && nr < n && nc >= 0 && nc < n &&
+                        grid[nr][nc] == 1) {
+                        components.insert(ds.findUPar(nr * n + nc));
                     }
                 }
                 int sizeTotal = 0;
                 for (auto it : components) {
                     sizeTotal += ds.size[it];
                 }
-                largestIld = max(largestIld, sizeTotal + 1);
+                largest_island = max(largest_island, sizeTotal + 1);
             }
         }
         for (int cellNo = 0; cellNo < n * n; cellNo++) {
-            largestIld = max(largestIld, ds.size[ds.findUPar(cellNo)]);
+            largest_island = max(largest_island, ds.size[ds.findUPar(cellNo)]);
         }
-        return largestIld;
+        return largest_island;
     }
 };
