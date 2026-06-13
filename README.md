@@ -28,6 +28,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0396-rotate-function](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0396-rotate-function/) | Medium |
 | [0435-non-overlapping-intervals](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0455-assign-cookies/) | Easy |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0860-lemonade-change](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0860-lemonade-change/) | Easy |
@@ -144,6 +145,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0048-rotate-image](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0048-rotate-image/) | Medium |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
 | [0994-rotting-oranges](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
@@ -387,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0033-search-in-rotated-sorted-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0154-find-minimum-in-rotated-sorted-array-ii/) | Hard |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1004-max-consecutive-ones-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2540-minimum-common-value](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2540-minimum-common-value/) | Easy |
@@ -415,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
@@ -460,6 +464,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0787-cheapest-flights-within-k-stops](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3296-minimum-number-of-seconds-to-make-mountain-height-zero/) | Medium |
@@ -549,6 +554,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
@@ -609,6 +615,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
+| [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
