@@ -191,6 +191,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2751-robot-collisions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2751-robot-collisions/) | Hard |
 | [2946-matrix-similarity-after-cyclic-shifts](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2946-matrix-similarity-after-cyclic-shifts/) | Easy |
 | [3612-process-string-with-special-operations-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3653-xor-after-range-multiplication-queries-i/) | Medium |
 | [3838-weighted-word-mapping](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3847-find-the-score-difference-in-a-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3847-find-the-score-difference-in-a-game/) | Medium |
@@ -229,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3211-generate-binary-strings-without-adjacent-zeros](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3211-generate-binary-strings-without-adjacent-zeros/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3612-process-string-with-special-operations-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3612-process-string-with-special-operations-i/) | Medium |
+| [3614-process-string-with-special-operations-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3614-process-string-with-special-operations-ii/) | Hard |
 | [3838-weighted-word-mapping](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3864-minimum-cost-to-partition-a-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3864-minimum-cost-to-partition-a-binary-string/) | Hard |
 ## Recursion
