@@ -1,33 +1,33 @@
 class Solution {
 public:
-    bool canPartition(vector<int>& nums) {
-        int n=nums.size();
-        int tSum=0;
-        for(int i=0; i<n ; i++){
-            tSum+=nums[i];
-        }
-        if(tSum&1){
+    bool subsetSumEqualtoTarget(int idx, int target, vector<int>& nums, vector<vector<int>>& dp) {
+        if (idx < 0) {
             return false;
         }
-        int k=tSum/2;
-        vector<bool>prev(k+1,0),curr(k+1,0);
-        prev[0]=curr[0]=true;
-        if(nums[0]<=k){
-            prev[nums[0]]=true;
+        if (idx == 0) {
+            return nums[0] == target;
         }
-        for(int idx=1; idx<n; idx++){
-            for(int tgt=1; tgt<=k; tgt++){
-                bool notTake=prev[tgt];
-                bool take=false;
-                if(nums[idx]<=tgt){
-                    take=prev[tgt-nums[idx]];
-                }
-                curr[tgt]=take|notTake;
-
-            }
-            prev=curr;
+        if (dp[idx][target] != -1) {
+            return dp[idx][target];
         }
-        return prev[k];
-        
+        bool not_take = subsetSumEqualtoTarget(idx - 1, target, nums, dp);
+        bool take = false;
+        if (target >= nums[idx]) {
+            take =
+                subsetSumEqualtoTarget(idx - 1, target - nums[idx], nums, dp);
+        }
+        return dp[idx][target] = not_take | take;
+    }
+    bool canPartition(vector<int>& nums) {
+        int totalSum = 0;
+        for (int& num : nums) {
+            totalSum += num;
+        }
+        if (totalSum % 2 != 0) {
+            return false;
+        }
+        int n = nums.size();
+        vector<vector<int>> dp(n, vector<int>(totalSum / 2 + 1, -1));
+        return subsetSumEqualtoTarget(n - 1, totalSum / 2, nums, dp);
     }
 };
