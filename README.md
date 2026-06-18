@@ -252,6 +252,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0282-expression-add-operators](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0282-expression-add-operators/) | Hard |
 | [0396-rotate-function](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0396-rotate-function/) | Medium |
 | [0788-rotated-digits](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0788-rotated-digits/) | Medium |
+| [1344-angle-between-hands-of-a-clock](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1922-count-good-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1922-count-good-numbers/) | Medium |
