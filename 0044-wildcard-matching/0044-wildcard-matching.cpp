@@ -1,36 +1,40 @@
 class Solution {
 public:
-    bool f(int i,int j, string &s,string &p,vector<vector<int>> &dp){
-        if(i<0 && j<0){
+    bool allStar(int j, string& p, int& m) {
+        for (int i = j; i < m; i++) {
+            if (p[i] != '*') {
+                return false;
+            }
+        }
+        return true;
+    }
+    bool solve(int i, int j, int& n, int& m, string& s, string& p,
+               vector<vector<int>>& dp) {
+        if (i == n && j == m) {
             return true;
         }
-        if(j<0 && i>=0){
+        if (j == m && i < n) {
             return false;
         }
-        if(i<0 && j>=0){
-            for(int idx=0; idx<=j; idx++){
-                if(p[idx]!='*'){
-                    return false;
-                }
-            }
-            return true;
+        if (i == n && j < m) {
+            return allStar(j, p, m);
         }
-        if(dp[i][j]!=-1){
+        if (dp[i][j] != -1) {
             return dp[i][j];
         }
-        if(s[i]==p[j] || p[j]=='?'){
-            return dp[i][j]=f(i-1,j-1,s,p,dp);
+        if (s[i] == p[j] || p[j] == '?') {
+            return dp[i][j] = solve(i + 1, j + 1, n, m, s, p, dp);
         }
-        if(p[j]=='*'){
-            return dp[i][j]=(f(i,j-1,s,p,dp)|f(i-1,j,s,p,dp));
+        if (p[j] == '*') {
+            return dp[i][j] = solve(i, j + 1, n, m, s, p, dp) |
+                              solve(i + 1, j, n, m, s, p, dp);
         }
-        return false;
+        return dp[i][j] = false;
     }
     bool isMatch(string s, string p) {
-        int n=s.size();
-        int m=p.size();
-        vector<vector<int>>dp(n,vector<int>(m,-1));
-        return f(n-1,m-1,s,p,dp);
-        
+        int n = s.size();
+        int m = p.size();
+        vector<vector<int>> dp(n, vector<int>(m, -1));
+        return solve(0, 0, n, m, s, p, dp);
     }
 };
