@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0044-wildcard-matching](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0044-wildcard-matching/) | Hard |
 | [0045-jump-game-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0055-jump-game/) | Medium |
 | [0135-candy](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0135-candy/) | Hard |
@@ -203,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0044-wildcard-matching](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0044-wildcard-matching/) | Hard |
 | [0072-edit-distance](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0072-edit-distance/) | Medium |
 | [0076-minimum-window-substring](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
@@ -242,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0002-add-two-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0002-add-two-numbers/) | Medium |
 | [0025-reverse-nodes-in-k-group](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0025-reverse-nodes-in-k-group/) | Hard |
+| [0044-wildcard-matching](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0044-wildcard-matching/) | Hard |
 | [0050-powx-n](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0050-powx-n/) | Medium |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1545-find-kth-bit-in-nth-binary-string/) | Medium |
 | [1922-count-good-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1922-count-good-numbers/) | Medium |
@@ -283,6 +286,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0022-generate-parentheses](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0022-generate-parentheses/) | Medium |
+| [0044-wildcard-matching](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0044-wildcard-matching/) | Hard |
 | [0045-jump-game-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0045-jump-game-ii/) | Medium |
 | [0055-jump-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0055-jump-game/) | Medium |
 | [0072-edit-distance](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0072-edit-distance/) | Medium |
