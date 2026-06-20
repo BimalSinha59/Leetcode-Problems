@@ -56,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
 | [1732-find-the-highest-altitude](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1732-find-the-highest-altitude/) | Easy |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1752-check-if-array-is-sorted-and-rotated/) | Easy |
+| [1840-maximum-building-height](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1840-maximum-building-height/) | Hard |
 | [1848-minimum-distance-to-the-target-element](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1848-minimum-distance-to-the-target-element/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [1861-rotating-the-box](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1861-rotating-the-box/) | Medium |
@@ -261,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0788-rotated-digits](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0788-rotated-digits/) | Medium |
 | [1344-angle-between-hands-of-a-clock](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1344-angle-between-hands-of-a-clock/) | Medium |
 | [1622-fancy-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1622-fancy-sequence/) | Hard |
+| [1840-maximum-building-height](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1840-maximum-building-height/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [1922-count-good-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1922-count-good-numbers/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
@@ -537,6 +539,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1665-minimum-initial-energy-to-finish-tasks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1665-minimum-initial-energy-to-finish-tasks/) | Hard |
 | [1710-maximum-units-on-a-truck](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1710-maximum-units-on-a-truck/) | Easy |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1727-largest-submatrix-with-rearrangements/) | Medium |
+| [1840-maximum-building-height](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1840-maximum-building-height/) | Hard |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1878-get-biggest-three-rhombus-sums-in-a-grid/) | Medium |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2033-minimum-operations-to-make-a-uni-value-grid/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
