@@ -7,7 +7,7 @@ public:
         size.resize(n + 1);
         for (int i = 1; i <= n; i++) {
             parent[i] = i;
-            size[i]=1;
+            size[i] = 1;
         }
     }
 
@@ -21,15 +21,15 @@ public:
     void unionBySize(int u, int v) {
         int upar_u = findUpar(u);
         int upar_v = findUpar(v);
-        if(upar_u==upar_v){
+        if (upar_u == upar_v) {
             return;
         }
         if (size[upar_u] > size[upar_v]) {
             parent[upar_v] = upar_u;
-            size[upar_u]+=size[upar_v];
+            size[upar_u] += size[upar_v];
         } else {
             parent[upar_u] = upar_v;
-            size[upar_v]+=size[upar_u];
+            size[upar_v] += size[upar_u];
         }
     }
 };
