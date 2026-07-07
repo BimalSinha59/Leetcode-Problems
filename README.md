@@ -794,6 +794,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0180-consecutive-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0180-consecutive-numbers/) | Medium |
 | [0182-duplicate-emails](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0182-duplicate-emails/) | Easy |
 | [0183-customers-who-never-order](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0183-customers-who-never-order/) | Easy |
+| [0184-department-highest-salary](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0184-department-highest-salary/) | Medium |
 | [0577-employee-bonus](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0577-employee-bonus/) | Easy |
 ## Biconnected Component
 | Problem Name | Difficulty |
