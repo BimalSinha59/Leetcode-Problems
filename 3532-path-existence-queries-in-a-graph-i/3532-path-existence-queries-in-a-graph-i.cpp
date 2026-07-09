@@ -23,7 +23,7 @@ public:
         if (upar_u == upar_v) {
             return;
         }
-        if (size[upar_u] < upar_v) {
+        if (size[upar_u] < size[upar_v]) {
             parent[upar_u] = upar_v;
             size[upar_v] += size[upar_u];
         } else {
