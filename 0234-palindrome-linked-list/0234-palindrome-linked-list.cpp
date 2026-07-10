@@ -41,12 +41,11 @@ public:
         if (head == NULL || head->next == NULL) {
             return true;
         }
-        ListNode* prevOfMid;
+        ListNode* prevOfMid = NULL;
         ListNode* midNode = findMidNode(head, prevOfMid);
         prevOfMid->next = NULL;
-        ListNode* head2 = reverseLL(midNode);
         ListNode* temp1 = head;
-        ListNode* temp2 = head2;
+        ListNode* temp2 = reverseLL(midNode);
         while (temp1) {
             if (temp1->val != temp2->val) {
                 return false;
