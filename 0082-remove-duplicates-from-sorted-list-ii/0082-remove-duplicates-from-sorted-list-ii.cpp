@@ -18,9 +18,8 @@ public:
         dummy->next = head;
         ListNode* prev = dummy;
         ListNode* curr = head;
-
         while (curr && curr->next) {
-            if (curr->val == curr->next->val) {
+            if (curr->next && curr->val == curr->next->val) {
                 while (curr->next && curr->val == curr->next->val) {
                     curr = curr->next;
                 }
