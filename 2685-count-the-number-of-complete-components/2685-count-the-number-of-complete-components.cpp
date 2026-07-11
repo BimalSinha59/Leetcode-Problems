@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void dfs(int node, vector<int>& vis, vector<vector<int>>& adj, int& no_of_vertices, int& no_of_edges) {
+    void dfs(int node, vector<int>& vis, vector<vector<int>>& adj,
+             int& no_of_vertices, int& no_of_edges) {
         vis[node] = 1;
         no_of_vertices++;
         no_of_edges += adj[node].size();
@@ -24,7 +25,7 @@ public:
             if (!vis[i]) {
                 int no_of_vertices = 0, no_of_edges = 0;
                 dfs(i, vis, adj, no_of_vertices, no_of_edges);
-                if (no_of_edges / 2 == (no_of_vertices * (no_of_vertices - 1)) / 2) {
+                if (no_of_edges == no_of_vertices * (no_of_vertices - 1)) {
                     ans++;
                 }
             }
