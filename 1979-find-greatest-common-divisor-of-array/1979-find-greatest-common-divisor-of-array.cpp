@@ -1,16 +1,20 @@
 class Solution {
 public:
-    int findGCD(int a, int b) {
-        if (a == 0) {
-            return b;
+    int calculateGCD(int a, int b) {
+        while (true) {
+            if (a == 0) {
+                return b;
+            }
+            if (b == 0) {
+                return a;
+            }
+            if (a > b) {
+                a = a % b;
+            } else {
+                b = b % a;
+            }
         }
-        if (b == 0) {
-            return a;
-        }
-        if (a > b) {
-            return findGCD(a % b, b);
-        }
-        return findGCD(a, b % a);
+        return 0;
     }
     int findGCD(vector<int>& nums) {
         int mini = INT_MAX;
@@ -19,7 +23,7 @@ public:
             mini = min(mini, num);
             maxi = max(maxi, num);
         }
-        int ans = findGCD(mini, maxi);
+        int ans = calculateGCD(mini, maxi);
         return ans;
     }
 };
