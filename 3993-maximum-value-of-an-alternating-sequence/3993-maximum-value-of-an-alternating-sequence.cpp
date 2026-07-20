@@ -4,9 +4,6 @@ public:
         if (n == 1) {
             return s;
         }
-        if (m == 1) {
-            return s + 1;
-        }
         long long first_term, no_of_terms, comm_diff = m - 1;
         if (n & 1) {
             first_term = s + 1;
