@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0057-insert-interval](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0057-insert-interval/) | Medium |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0135-candy](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0135-candy/) | Hard |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
@@ -385,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0076-minimum-window-substring/) | Hard |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
@@ -464,6 +466,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
 | [0023-merge-k-sorted-lists](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0023-merge-k-sorted-lists/) | Hard |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0215-kth-largest-element-in-an-array/) | Medium |
 | [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
@@ -780,6 +783,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [2196-create-binary-tree-from-descriptions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
@@ -793,6 +797,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [2196-create-binary-tree-from-descriptions](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2196-create-binary-tree-from-descriptions/) | Medium |
