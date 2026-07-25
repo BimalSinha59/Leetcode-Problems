@@ -1,15 +1,16 @@
 class Solution {
 public:
     int maxProduct(int n) {
-        vector<int>v;
-        while(n>0){
-            int dig=n%10;
-            v.push_back(dig);
-            n/=10;
+        int maxProduct = 0;
+        int maxi = -1;
+        while (n > 0) {
+            int digit = n % 10;
+            n /= 10;
+            if (maxi != -1) {
+                maxProduct = max(maxProduct, maxi * digit);
+            }
+            maxi = max(maxi, digit);
         }
-        sort(v.begin(),v.end());
-        int sz=v.size();
-        return v[sz-1]*v[sz-2];
-        
+        return maxProduct;
     }
 };
