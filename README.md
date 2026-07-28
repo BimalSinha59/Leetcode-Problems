@@ -694,6 +694,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
+| [0094-binary-tree-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0207-course-schedule](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0207-course-schedule/) | Medium |
 | [0210-course-schedule-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0210-course-schedule-ii/) | Medium |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
@@ -731,6 +732,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0232-implement-queue-using-stacks/) | Easy |
@@ -790,6 +792,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
@@ -804,6 +807,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
 | [0703-kth-largest-element-in-a-stream](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0703-kth-largest-element-in-a-stream/) | Easy |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
