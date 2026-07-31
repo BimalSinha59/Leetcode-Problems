@@ -7,17 +7,11 @@ public:
         }
         sort(freq.rbegin(), freq.rend());
         int minPushes = 0;
-        for (int i = 0; i < 8; i++) {
-            minPushes += freq[i];
-        }
-        for (int i = 8; i < 16; i++) {
-            minPushes += 2 * freq[i];
-        }
-        for (int i = 16; i < 24; i++) {
-            minPushes += 3 * freq[i];
-        }
-        for (int i = 24; i < 26; i++) {
-            minPushes += 4 * freq[i];
+        for (int i = 0; i < 26; i++) {
+            if (freq[i] == 0) {
+                break;
+            }
+            minPushes += (i / 8 + 1) * freq[i];
         }
         return minPushes;
     }
