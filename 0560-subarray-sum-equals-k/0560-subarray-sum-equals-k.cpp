@@ -1,16 +1,18 @@
 class Solution {
 public:
     int subarraySum(vector<int>& nums, int k) {
-        int n = nums.size();
-        unordered_map<int, int> mp;
-        mp[0] = 1;
-        int psum = 0, ans = 0;
-        for (int i = 0; i < n; i++) {
-            psum += nums[i];
-            int diff = psum - k;
-            ans += mp[diff];
-            mp[psum]++;
+        int countSubArrays = 0;
+        unordered_map<int, int> prefSumFreq;
+        int prefSum = 0;
+        prefSumFreq[0] = 1;
+        for (int& num : nums) {
+            prefSum += num;
+            int needToRemove = prefSum - k;
+            if (prefSumFreq.count(needToRemove)) {
+                countSubArrays += prefSumFreq[needToRemove];
+            }
+            prefSumFreq[prefSum]++;
         }
-        return ans;
+        return countSubArrays;
     }
 };
