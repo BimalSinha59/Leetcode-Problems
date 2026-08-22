@@ -1,15 +1,16 @@
 class Solution {
 public:
     bool checkDivisibility(int n) {
-        int s=0,p=1;
-        int nn=n;
-        while(nn>0){
-            int dig=nn%10;
-            s+=dig;
-            p*=dig;
-            nn/=10;
+        int digSum = 0;
+        int digMul = 1;
+        int num = n;
+        while (n > 0) {
+            int dig = n % 10;
+            digSum += dig;
+            digMul *= dig;
+            n /= 10;
         }
-        int sum=s+p;
-        return n%sum==0;
+        int sum = digSum + digMul;
+        return num % sum == 0;
     }
 };
