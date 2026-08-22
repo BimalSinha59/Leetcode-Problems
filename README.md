@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0435-non-overlapping-intervals](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0435-non-overlapping-intervals/) | Medium |
 | [0455-assign-cookies](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0455-assign-cookies/) | Easy |
 | [0518-coin-change-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0518-coin-change-ii/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0628-maximum-product-of-three-numbers](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0628-maximum-product-of-three-numbers/) | Easy |
 | [0741-cherry-pickup](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0741-cherry-pickup/) | Hard |
 | [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
@@ -417,6 +418,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0169-majority-element](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0169-majority-element/) | Easy |
 | [0347-top-k-frequent-elements](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0347-top-k-frequent-elements/) | Medium |
 | [0355-design-twitter](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0355-design-twitter/) | Medium |
+| [0560-subarray-sum-equals-k](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0846-hand-of-straights](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0846-hand-of-straights/) | Medium |
 | [0874-walking-robot-simulation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0874-walking-robot-simulation/) | Medium |
 | [0895-maximum-frequency-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0895-maximum-frequency-stack/) | Hard |
@@ -469,6 +471,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0560-subarray-sum-equals-k/) | Medium |
 | [0930-binary-subarrays-with-sum](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0930-binary-subarrays-with-sum/) | Medium |
 | [1004-max-consecutive-ones-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1674-minimum-moves-to-make-array-complementary](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1674-minimum-moves-to-make-array-complementary/) | Medium |
