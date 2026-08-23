@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0004-median-of-two-sorted-arrays/) | Hard |
+| [0015-3sum](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0015-3sum/) | Medium |
 | [0031-next-permutation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0031-next-permutation/) | Medium |
 | [0033-search-in-rotated-sorted-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0033-search-in-rotated-sorted-array/) | Medium |
 | [0045-jump-game-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0045-jump-game-ii/) | Medium |
@@ -627,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0015-3sum/) | Medium |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0019-remove-nth-node-from-end-of-list/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0031-next-permutation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0031-next-permutation/) | Medium |
@@ -654,6 +656,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0015-3sum](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0015-3sum/) | Medium |
 | [0056-merge-intervals](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0056-merge-intervals/) | Medium |
 | [0075-sort-colors](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0075-sort-colors/) | Medium |
 | [0148-sort-list](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0148-sort-list/) | Medium |
