@@ -1,7 +1,7 @@
 # Write your MySQL query statement below
 WITH CummulativeSum AS(
     SELECT 
-        *,
+        person_name,
         SUM(weight) OVER(ORDER By turn) AS running_total
     FROM Queue
 )
