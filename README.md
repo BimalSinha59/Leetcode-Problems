@@ -148,6 +148,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3838-weighted-word-mapping](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3838-weighted-word-mapping/) | Easy |
 | [3847-find-the-score-difference-in-a-game](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3847-find-the-score-difference-in-a-game/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
+| [3876-construct-uniform-parity-array-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 | [3892-minimum-operations-to-achieve-at-least-k-peaks](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3892-minimum-operations-to-achieve-at-least-k-peaks/) | Hard |
 | [3903-smallest-stable-index-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3903-smallest-stable-index-i/) | Easy |
 | [3904-smallest-stable-index-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3904-smallest-stable-index-ii/) | Medium |
@@ -340,6 +341,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3783-mirror-distance-of-an-integer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3783-mirror-distance-of-an-integer/) | Easy |
 | [3848-check-digitorial-permutation](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3848-check-digitorial-permutation/) | Medium |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3867-sum-of-gcd-of-formed-pairs/) | Medium |
+| [3876-construct-uniform-parity-array-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3876-construct-uniform-parity-array-ii/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
 | ------- | ------- |
