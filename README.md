@@ -248,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0022-generate-parentheses](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0044-wildcard-matching](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0044-wildcard-matching/) | Hard |
+| [0071-simplify-path](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0071-simplify-path/) | Medium |
 | [0072-edit-distance](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0072-edit-distance/) | Medium |
 | [0076-minimum-window-substring](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0079-word-search](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0079-word-search/) | Medium |
@@ -783,6 +784,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0071-simplify-path](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0071-simplify-path/) | Medium |
 | [0094-binary-tree-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0094-binary-tree-inorder-traversal/) | Easy |
 | [0155-min-stack](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0155-min-stack/) | Medium |
 | [0225-implement-stack-using-queues](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0225-implement-stack-using-queues/) | Easy |
