@@ -59,6 +59,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1463-cherry-pickup-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1463-cherry-pickup-ii/) | Hard |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1536-minimum-swaps-to-arrange-a-binary-grid/) | Medium |
+| [1539-kth-missing-positive-number](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1582-special-positions-in-a-binary-matrix/) | Easy |
 | [1594-maximum-non-negative-product-in-a-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1594-maximum-non-negative-product-in-a-matrix/) | Medium |
@@ -529,6 +530,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [1004-max-consecutive-ones-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1004-max-consecutive-ones-iii/) | Medium |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1011-capacity-to-ship-packages-within-d-days/) | Medium |
+| [1539-kth-missing-positive-number](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1539-kth-missing-positive-number/) | Easy |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1855-maximum-distance-between-a-pair-of-values/) | Medium |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2035-partition-array-into-two-arrays-to-minimize-sum-difference/) | Hard |
 | [2540-minimum-common-value](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2540-minimum-common-value/) | Easy |
