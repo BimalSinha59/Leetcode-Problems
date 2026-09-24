@@ -126,6 +126,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3534-path-existence-queries-in-a-graph-ii/) | Hard |
 | [3546-equal-sum-grid-partition-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3546-equal-sum-grid-partition-i/) | Medium |
 | [3548-equal-sum-grid-partition-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3548-equal-sum-grid-partition-ii/) | Hard |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3567-minimum-absolute-difference-in-sliding-submatrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3567-minimum-absolute-difference-in-sliding-submatrix/) | Medium |
 | [3620-network-recovery-pathways](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3620-network-recovery-pathways/) | Hard |
@@ -330,6 +331,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3464-maximize-the-distance-between-points-on-a-square](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3464-maximize-the-distance-between-points-on-a-square/) | Hard |
 | [3513-number-of-unique-xor-triplets-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3513-number-of-unique-xor-triplets-i/) | Medium |
 | [3536-maximum-product-of-two-digits](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3536-maximum-product-of-two-digits/) | Easy |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3550-smallest-index-with-digit-sum-equal-to-index/) | Easy |
 | [3558-number-of-ways-to-assign-edge-weights-i](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3558-number-of-ways-to-assign-edge-weights-i/) | Medium |
 | [3559-number-of-ways-to-assign-edge-weights-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3559-number-of-ways-to-assign-edge-weights-ii/) | Hard |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/3622-check-divisibility-by-digit-sum-and-product/) | Easy |
