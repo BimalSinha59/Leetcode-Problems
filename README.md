@@ -22,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0081-search-in-rotated-sorted-array-ii/) | Medium |
 | [0090-subsets-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0090-subsets-ii/) | Medium |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0135-candy](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0135-candy/) | Hard |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0153-find-minimum-in-rotated-sorted-array/) | Medium |
@@ -423,6 +424,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0003-longest-substring-without-repeating-characters](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0003-longest-substring-without-repeating-characters/) | Medium |
 | [0076-minimum-window-substring](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0076-minimum-window-substring/) | Hard |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0105-construct-binary-tree-from-preorder-and-inorder-traversal/) | Medium |
+| [0128-longest-consecutive-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0138-copy-list-with-random-pointer](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0138-copy-list-with-random-pointer/) | Medium |
 | [0139-word-break](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0139-word-break/) | Medium |
 | [0142-linked-list-cycle-ii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0142-linked-list-cycle-ii/) | Medium |
@@ -570,6 +572,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0128-longest-consecutive-sequence/) | Medium |
 | [0547-number-of-provinces](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0547-number-of-provinces/) | Medium |
 | [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
