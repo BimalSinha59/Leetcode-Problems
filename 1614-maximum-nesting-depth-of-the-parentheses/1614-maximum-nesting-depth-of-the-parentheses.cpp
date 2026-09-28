@@ -1,20 +1,16 @@
 class Solution {
 public:
     int maxDepth(string s) {
-        int n=s.size();
-        int ans=0;
-        string temp="";
-        for(int i=0; i<n; i++){
-            if(s[i]=='('){
-                temp+=s[i];
-                ans=max(ans,(int)temp.size());
-            }
-            else if(s[i]==')'){
-                temp.pop_back();
+        int count = 0;
+        int max_nes_paran = 0;
+        for (int i = 0; i < s.size(); i++) {
+            if (s[i] == '(') {
+                count++;
+                max_nes_paran = max(max_nes_paran, count);
+            } else if (s[i] == ')') {
+                count--;
             }
         }
-
-        return ans;
-        
+        return max_nes_paran;
     }
 };
