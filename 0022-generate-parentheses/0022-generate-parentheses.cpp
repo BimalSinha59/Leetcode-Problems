@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void generateValidParentheses(string curr, int open, int close, int n, vector<string>& ans) {
+    void generateValidParentheses(string curr, int open, int close, int n,
+                                  vector<string>& ans) {
         if (curr.size() == 2 * n) {
             ans.push_back(curr);
             return;
