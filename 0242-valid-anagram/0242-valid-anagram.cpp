@@ -5,15 +5,15 @@ public:
         if(n!=m){
             return false;
         }
-        vector<int>mp(26,0);
+        vector<int>freq(26,0);
         for(int i=0; i<n; i++){
-            mp[s[i]-'a']++;
+            freq[s[i]-'a']++;
         }
         for(int i=0; i<n; i++){
-            mp[t[i]-'a']--;
+            freq[t[i]-'a']--;
         }
         for(int i=0; i<26; i++){
-            if(mp[i]!=0){
+            if(freq[i]!=0){
                 return false;
             }
         }
