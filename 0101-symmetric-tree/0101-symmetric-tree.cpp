@@ -6,42 +6,29 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
-    TreeNode* invertTree(TreeNode* root){
-        if(root==NULL){
-            return root;
-        }
-        TreeNode* temp=root->left;
-        root->left=root->right;
-        root->right=temp;
-        invertTree(root->left);
-        invertTree(root->right);
-        return root;
-    }
-
-    bool isSame(TreeNode* p,TreeNode* q){
-        if(p==NULL && q==NULL){
+    bool checkSymmetric(TreeNode* left_subtree, TreeNode* right_subtree) {
+        if (left_subtree == NULL && right_subtree == NULL) {
             return true;
         }
-        if(p==NULL || q==NULL){
+        if (left_subtree == NULL || right_subtree == NULL) {
             return false;
         }
-        if(p->val==q->val){
-            return isSame(p->left,q->left) && isSame(p->right,q->right);
+        if (left_subtree->val == right_subtree->val) {
+            return checkSymmetric(left_subtree->left, right_subtree->right) &&
+                   checkSymmetric(left_subtree->right, right_subtree->left);
         }
         return false;
     }
-
     bool isSymmetric(TreeNode* root) {
-       if(root==NULL){
-        return true;
-       }
-       TreeNode* p=root->right;
-       TreeNode* q=invertTree(root->left);
-       return isSame(p,q);       
+        if (root == NULL) {
+            return true;
+        }
+        return checkSymmetric(root->left, root->right);
     }
 };
