@@ -5,24 +5,31 @@ public:
         if (n % groupSize != 0) {
             return false;
         }
-        map<int, int> mp;
-        for (int& card : hand) {
-            mp[card]++;
+
+        unordered_map<int, int> card_freq;
+        for (int card : hand) {
+            card_freq[card]++;
         }
-        while (mp.size()) {
-            auto firstEle = mp.begin();
-            int fkey = firstEle->first;
-            for (int i = fkey; i < fkey + groupSize; i++) {
-                if (mp.count(i) == 0) {
-                    return false;
-                } else {
-                    mp[i]--;
-                    if (mp[i] == 0) {
-                        mp.erase(i);
+
+        for (int card : hand) {
+            int start_card = card;
+            while (card_freq[start_card - 1]) {
+                start_card--;
+            }
+
+            while (start_card <= card) {
+                while (card_freq[start_card]) {
+                    for (int i = start_card; i < start_card + groupSize; i++) {
+                        if (!card_freq[i]) {
+                            return false;
+                        }
+                        card_freq[i]--;
                     }
                 }
+                start_card++;
             }
         }
+
         return true;
     }
 };
