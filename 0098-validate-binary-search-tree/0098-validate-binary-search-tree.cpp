@@ -6,23 +6,24 @@
  *     TreeNode *right;
  *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
  *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
- *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left),
+ * right(right) {}
  * };
  */
 class Solution {
 public:
-
-    bool solve(TreeNode* root,long long l, long long r){
-        if(root==NULL){
+    TreeNode* prev = NULL;
+    bool isValidBST(TreeNode* root) {
+        if (root == NULL) {
             return true;
         }
-        if(root->val>=r || root->val<=l){
+        if (!isValidBST(root->left)) {
             return false;
         }
-
-        return solve(root->left,l,root->val) && solve(root->right,root->val,r);
-    }
-    bool isValidBST(TreeNode* root) {
-        return solve(root,-1e18,1e18);
+        if (prev && root->val <= prev->val) {
+            return false;
+        }
+        prev = root;
+        return isValidBST(root->right);
     }
 };
