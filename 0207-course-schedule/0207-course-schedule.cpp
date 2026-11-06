@@ -1,6 +1,7 @@
 class Solution {
 public:
-    bool dfs_cycle_check(int node, vector<int> adjL[], vector<int>& vis, vector<int>& pathVis) {
+    bool dfs_cycle_check(int node, vector<int> adjL[], vector<int>& vis,
+                         vector<int>& pathVis) {
         vis[node] = 1;
         pathVis[node] = 1;
         for (int& adjNode : adjL[node]) {
