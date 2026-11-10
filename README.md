@@ -587,6 +587,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0778-swim-in-rising-water](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0778-swim-in-rising-water/) | Hard |
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
 | [1722-minimize-hamming-distance-after-swap-operations](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1722-minimize-hamming-distance-after-swap-operations/) | Medium |
@@ -605,6 +606,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0785-is-graph-bipartite](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0785-is-graph-bipartite/) | Medium |
 | [0787-cheapest-flights-within-k-stops](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0787-cheapest-flights-within-k-stops/) | Medium |
 | [1192-critical-connections-in-a-network](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1192-critical-connections-in-a-network/) | Hard |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/) | Medium |
 | [2492-minimum-score-of-a-path-between-two-cities](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2492-minimum-score-of-a-path-between-two-cities/) | Medium |
 | [2685-count-the-number-of-complete-components](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/2685-count-the-number-of-complete-components/) | Medium |
@@ -783,6 +785,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0827-making-a-large-island](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0827-making-a-large-island/) | Hard |
 | [1192-critical-connections-in-a-network](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1192-critical-connections-in-a-network/) | Hard |
 | [1306-jump-game-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1306-jump-game-iii/) | Medium |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1373-maximum-sum-bst-in-binary-tree](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1373-maximum-sum-bst-in-binary-tree/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
@@ -860,6 +863,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0994-rotting-oranges](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/0994-rotting-oranges/) | Medium |
 | [1091-shortest-path-in-binary-matrix](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1091-shortest-path-in-binary-matrix/) | Medium |
 | [1306-jump-game-iii](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1306-jump-game-iii/) | Medium |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [1345-jump-game-iv](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1345-jump-game-iv/) | Hard |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1391-check-if-there-is-a-valid-path-in-a-grid/) | Medium |
 | [1559-detect-cycles-in-2d-grid](https://github.com/BimalSinha59/Leetcode-Submissions/tree/main/1559-detect-cycles-in-2d-grid/) | Medium |
